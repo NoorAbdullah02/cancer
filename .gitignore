@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Model Checkpoints & Weights
+*.pth
+*.pt
+*.onnx
+*.safetensors
+best_vindr_model.pth
+
+# Image & Data Directories (Exclude large datasets from Git)
+images_png/
+images/
+data/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.gemini/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Debug Output
+*.log
